@@ -87,11 +87,11 @@ end
 def get_average_age_for_season(data, season)
   # code here
 age = 0
-i = 0
+count = 0
   data[season].each do |hash|
     hash.each do |k,v|
       if k == "age"
-        i += 1
+        count += 1
         age += v.to_f
       end
     end
