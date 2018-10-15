@@ -60,7 +60,8 @@ def count_contestants_by_hometown(data, hometown)
   i = 0 
   data.each do |season, arr|
     arr.each do |hash|
-      
+      hash.each do |k,v|
+        
     
 end
 
