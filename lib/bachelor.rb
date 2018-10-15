@@ -34,7 +34,7 @@ data = {
 }
 
 def get_first_name_of_season_winner(data, season)
-  data[seaons.to]
+  data[seaons.to_sym]
 end
 
 def get_contestant_name(data, occupation)
