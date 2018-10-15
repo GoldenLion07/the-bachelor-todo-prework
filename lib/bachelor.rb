@@ -34,7 +34,7 @@ data = {
 }
 
 def get_first_name_of_season_winner(data, season)
-  data[seaons.to_sym].each do |into_arr|
+  data[seasons.to_sym].each do |into_arr|
     if into_arr[:status] == "Winner"
       return into_arr[:name].split(" ")[0]
     end
