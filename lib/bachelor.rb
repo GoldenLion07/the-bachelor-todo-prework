@@ -37,7 +37,7 @@ def get_first_name_of_season_winner(data, season)
   data[season].each do |contestants|
     contestants.each do |k,v|
       if v == "Winner"
-        
+        full_name == contestants[:name]
     end
   end
 end
