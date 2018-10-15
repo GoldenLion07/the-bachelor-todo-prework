@@ -48,7 +48,7 @@ def get_contestant_name(data, occupation)
   data.each do |season, arr|
     arr.each do |contestants|
       contestants.each do |k,v|
-        
+        if v == "Occupation"
 end
 
 def count_contestants_by_hometown(data, hometown)
