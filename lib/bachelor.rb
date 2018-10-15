@@ -36,7 +36,8 @@ data = {
 def get_first_name_of_season_winner(data, season)
   data[season].each do |contestants|
     contestants.each do |k,v|
-      if v = "Winner"
+      if v == "Winner"
+        
     end
   end
 end
