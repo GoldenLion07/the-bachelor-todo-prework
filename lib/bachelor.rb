@@ -34,7 +34,7 @@ data = {
 }
 
 def get_first_name_of_season_winner(data, season)
-  data
+  data[season].each do 
     end
   end
 end
