@@ -76,6 +76,7 @@ def get_occupation(data, hometown)
     arr.each do |hash|
       hash.each do |k,v|
         if v == hometown
+          return hash[occupation]
 end
 
 def get_average_age_for_season(data, season)
