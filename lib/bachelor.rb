@@ -92,5 +92,8 @@ def get_average_age_for_season(data, season)
       if k == "age"
         i += 1 
         age += v.to_f 
+      end
+    end
+  end
     
 end
