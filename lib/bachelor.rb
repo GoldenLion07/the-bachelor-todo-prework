@@ -66,7 +66,7 @@ def count_contestants_by_hometown(data, hometown)
         end
       end
     end
-  end5
+  end
   i
     
 end
@@ -82,7 +82,7 @@ def get_occupation(data, hometown)
     end
   end
 end
-end
+
 
 def get_average_age_for_season(data, season)
   # code here
