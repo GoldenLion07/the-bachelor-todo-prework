@@ -34,7 +34,8 @@ data = {
 }
 
 def get_first_name_of_season_winner(data, season)
-  data[seaons.to_sym].each do ||
+  data[seaons.to_sym].each do |into_arr|
+    
 end
 
 def get_contestant_name(data, occupation)
